@@ -1,0 +1,52 @@
+/*Feuille de style CSS*/
+
+@font-face /*Déclaration d'une nouvelle police*/
+{ 
+	font-family: 'Quicksand';
+	src: url("Police/Quicksand-Regular.otf");
+}
+
+body /*Application d'une image de fond*/
+{
+	background: url("Images/fond.png") no-repeat;
+	background-size: 100%; /*Permet à l'image de couvrir toute la page*/
+}
+
+
+.photo /*Ajout du cadre et de l'ombre*/
+{
+	float: right;
+    margin-top: -110px;
+}
+.exp, .compétences, .formation /*Modification du formatage des classes suivantes*/
+{
+	font-family: Calibri; /*Déclaration d'utilisation de la police "Calibri" pour les classes concernées*/
+}
+
+.nom, .intro /*Modification du formatage des classes suivantes*/
+{
+	text-align: center; /*Modification de l'alignement du texte des classe concernées*/
+	font-family: Quicksand, sans-serif; /*Déclaration d'utilisation de la police "Quicksand", ou une police "sans-serif" pour les classes concernées*/
+}
+
+h1 /*Modification couleur et police*/
+{
+	color: #C93087;
+	font-family: 'Quicksand';
+}
+
+h2 /*Modification du formatage des classes suivantes*/
+{ 
+	font-family: "Gill Sans MT"; /*Déclaration d'utilisation de la police "Gill Sans MT" pour les classes concernées*/
+	font-weight: bold; /*Applique la police en gras*/
+	color : #C93087; /*Change la couleur du texte*/
+
+}
+
+.section
+{
+	color:#C93087;
+	font-family: "Gill Sans MT";
+	font-size: 20px;
+	text-align: center;
+}
